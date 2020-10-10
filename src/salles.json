@@ -1,0 +1,24 @@
+{
+  "salles":
+  [
+    {"id":3,"nom":"11 E"},
+    {"id":4,"nom":"12 E"},
+    {"id":5,"nom":"13 E"},
+    {"id":7,"nom":"15 E"},
+    {"id":8,"nom":"06 E"},
+    {"id":9,"nom":"02 SE"},
+    {"id":10,"nom":"01 SE"},
+    {"id":11,"nom":"05 SE"},
+    {"id":12,"nom":"06 SE"},
+    {"id":13,"nom":"07 SE"},
+    {"id":14,"nom":"08 SE"},
+    {"id":15,"nom":"11 SE"},
+    {"id":16,"nom":"10 SE"},
+    {"id":17,"nom":"09 SE"},
+    {"id":18,"nom":"SP"},
+    {"id":1000,"nom":"Amphi MMI"},
+    {"id":2014,"nom":"04 SE"},
+    {"id":2015,"nom":"03 SE"},
+    {"id":3025,"nom":"Salle des études"}
+  ]
+}

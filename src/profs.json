@@ -1,0 +1,37 @@
+{
+  "profs":
+  [
+    {"id":4321,"nom":"A. Chafik"},
+    {"id":5,"nom":"A. Chmeiss"},
+    {"id":4364,"nom":"A. Goudyme"},
+    {"id":4274,"nom":"C. Morin"},
+    {"id":32,"nom":"C. Piette"},
+    {"id":4366,"nom":"C. Sailliot"},
+    {"id":1049,"nom":"D. Le Berre"},
+    {"id":16,"nom":"F. Hemery"},
+    {"id":1011,"nom":"F. Ramdani"},
+    {"id":4268,"nom":"F. Zimmerman"},
+    {"id":3226,"nom":"G. Buchon"},
+    {"id":4318,"nom":"I. Ouled Dlala"},
+    {"id":3362,"nom":"I. Varzinczak"},
+    {"id":4317,"nom":"JB. Gouray"},
+    {"id":6,"nom":"JF. Condotta"},
+    {"id":27,"nom":"L. Membre"},
+    {"id":14,"nom":"M. El Rezzi"},
+    {"id":4225,"nom":"M. Lucas"},
+    {"id":3279,"nom":"M. Masquelin"},
+    {"id":34,"nom":"M. Roger"},
+    {"id":4267,"nom":"M. Vaduret"},
+    {"id":4320,"nom":"N. Mhadhbi"},
+    {"id":36,"nom":"O. Roussel"},
+    {"id":7,"nom":"S. Coste"},
+    {"id":3235,"nom":"S. Lambin"},
+    {"id":41,"nom":"S. Tabary"},
+    {"id":17,"nom":"T. Hsu"},
+    {"id":4242,"nom":"V. Haccart"},
+    {"id":3354,"nom":"V. Prensier"},
+    {"id":1047,"nom":"Y. Fregier"},
+    {"id":2035,"nom":"Y. Martello"},
+    {"id":2092,"nom":"Y. Salhi"}
+  ]
+}
