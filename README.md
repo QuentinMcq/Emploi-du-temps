@@ -11,3 +11,7 @@ _Technologies utilisées_ : **Vue.js, JavaScript, HTML/CSS**.
 ```
 npm install
 ```
+
+```
+npm run watch
+```
