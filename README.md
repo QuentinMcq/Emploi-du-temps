@@ -1,24 +1,13 @@
 # interface-edt-cli
 
-## Project setup
+Création d'un emploi du temps universitaire.
+
+Projet scolaire réalisé en groupe de deux personnes de Mai à Juin 2020.
+
+_Technologies utilisées_ : **Vue.js, JavaScript, HTML/CSS**.
+
+
+## Lancer le projet
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
