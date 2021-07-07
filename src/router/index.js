@@ -1,9 +1,9 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import Disponibilite from "../components/Disponibilite";
-import Container from "../components/Container";
-import AjoutCreneau from "../components/AjoutCreneau";
+import Vue from 'vue';
+import VueRouter from 'vue-router';
+import Home from '../views/Home.vue';
+import Disponibilite from '../components/Disponibilite';
+import Container from '../components/Container';
+import AjoutCreneau from '../components/AjoutCreneau';
 
 Vue.use(VueRouter);
 
@@ -34,4 +34,4 @@ const router = new VueRouter({
   routes
 });
 
-export default router
+export default router;
