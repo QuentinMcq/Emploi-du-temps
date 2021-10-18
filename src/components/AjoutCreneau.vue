@@ -346,7 +346,9 @@ export default {
                 '"}';
             }
 
-            //Tableau.methods.addCard(this.form.matiere, this.form.salle, this.form.prof, this.form.type, 1, 3)
+            alert(textForJson);
+
+            // Tableau.methods.addCard(this.form.matiere, this.form.salle, this.form.prof, this.form.type, 1, 3)
             Tableau.methods.addCard(
               data['matieres'][0]['nom'] + ' ',
               data['salles'][6]['nom'] + ' | ',

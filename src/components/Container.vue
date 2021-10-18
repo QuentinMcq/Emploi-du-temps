@@ -1,15 +1,16 @@
 <template>
   <div id="app">
-    <div id="mySidebar" class="sidebar">
-      <a class="closebtn" href="javascript:void(0)" @click="closeNav">x</a>
-    </div>
+    <!--    <div id="mySidebar" class="sidebar">-->
+    <!--      <a class="closebtn" href="javascript:void(0)" @click="closeNav">x</a>-->
+    <!--    </div>-->
 
-    <div id="main">
-      <button class="openbtn" @click="openNav">
-        &#9776; Afficher la zone de drop
-      </button>
-      <Tableau />
-    </div>
+    <!--    <div id="main">-->
+    <!--      <button class="openbtn" @click="openNav">-->
+    <!--        &#9776; Afficher la zone de drop-->
+    <!--      </button>-->
+    <!--    </div>-->
+
+    <Tableau />
   </div>
 </template>
 
@@ -30,13 +31,13 @@ export default {
     closeNav() {
       document.getElementById('mySidebar').style.width = '0';
       document.getElementById('main').style.marginLeft = '0';
+    },
+    drop: (e) => {
+      const card_id = e.dataTransfer.getData('card_id');
+      const card = document.getElementById(card_id);
+      card.style.display = 'block';
+      e.target.appendChild(card);
     }
-    // drop: (e) => {
-    //   const card_id = e.dataTransfer.getData('card_id');
-    //   const card = document.getElementById(card_id);
-    //   card.style.display = 'block';
-    //   e.target.appendChild(card);
-    // }
   }
 };
 </script>
