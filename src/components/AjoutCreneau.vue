@@ -87,7 +87,7 @@
                 required
               ></b-form-select>
               <b-form-input
-                v-if="this.form.matiere === 'Autre cours'"
+                v-if="form.matiere === 'Autre cours'"
                 v-model="form.matiere_autre"
                 placeholder="Autre"
                 required
@@ -284,7 +284,7 @@ export default {
         this.form.groupeThree
       ];
       for (let i = 0; i < totalGroup.length; i++) {
-        if (totalGroup[i] != null) {
+        if (totalGroup[i] !== null) {
           textForModal =
             this.form.matiere +
             ' le ' +
@@ -306,15 +306,15 @@ export default {
           j = 0;
           while (j < data['edt'].length && create) {
             if (
-              (data['edt'][j]['heure'] === heure) &
-              (data['edt'][j]['idgroupe'] === idGroupe)
+              data['edt'][j]['heure'] === heure &&
+              data['edt'][j]['idgroupe'] === idGroupe
             ) {
               create = false;
             }
             j++;
           }
           if (create) {
-            if (this.form.matiere_autre != null) {
+            if (this.form.matiere_autre !== null) {
               textForJson =
                 '{"heure":"' +
                 heure +
@@ -345,7 +345,7 @@ export default {
                 this.form.salle +
                 '"}';
             }
-            console.log(textForJson);
+
             //Tableau.methods.addCard(this.form.matiere, this.form.salle, this.form.prof, this.form.type, 1, 3)
             Tableau.methods.addCard(
               data['matieres'][0]['nom'] + ' ',

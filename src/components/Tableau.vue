@@ -1046,7 +1046,6 @@ export default {
               row = 13;
             }
 
-            console.log(totalGroup[i]);
             let cell = null;
             let width = null;
             if (totalGroup[i] === 'groupe 1-A-1') {
@@ -1151,7 +1150,6 @@ export default {
                 idProf = i;
               }
             }
-            console.log(idMat, idSalle, idProf);
 
             this.addCard(
               2,
